@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Bakchod AI",
+    "slug": "bakchod-ai",
+    "version": "1.0.0",
+    "owner": "anvitareddy",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bakchodai.app"
+    },
+    "android": {
+      "package": "com.bakchodai.app",
+      "permissions": [
+        "android.permission.INTERNET"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b1f47081-ee41-4fab-9e92-dbd06b77d252"
+      }
+    }
+  }
+}
