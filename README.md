@@ -136,25 +136,3 @@ const API_KEY = 'YOUR_API_KEY_HERE'; // Get from https://aistudio.google.com
 4. **Async State Updates** - Non-blocking UI during AI responses
 5. **Memoization Ready** - Component structure supports React.memo
 6. **Smart Re-renders** - Reactions update without full re-render
-
-## 🐛 Known Issues & Future Enhancements
-
-- [ ] Add message editing and deletion
-- [ ] Implement voice messages
-- [ ] Add image sharing capabilities
-- [ ] Group chat member management
-- [ ] Custom character creation
-- [ ] Export chat history
-- [ ] Dark mode support
-
-## 📄 License
-
-MIT License - feel free to use for personal or commercial projects
-
-## 🤝 Contributing
-
-This is a personal project, but suggestions and improvements are welcome!
-
----
-
-Made with ❤️ using React Native + Expo + Google Gemini
