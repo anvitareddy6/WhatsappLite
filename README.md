@@ -1,4 +1,4 @@
-# Bakchod AI - WhatsApp-Style AI Chat App
+# Whatsapp Lite - WhatsApp-Style AI Chat App
 
 A React Native chat application where you can have conversations with AI characters powered by Google Gemini. Create 1-on-1 chats or group conversations with multiple AI personalities that chat amongst themselves and respond to you naturally.
 
