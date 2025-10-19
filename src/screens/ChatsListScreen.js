@@ -74,7 +74,7 @@ const ChatsListScreen = ({ navigation }) => {
   return (
     <SafeAreaView style={styles.container} edges={['top']}>
       <View style={styles.header}>
-        <Text style={styles.headerTitle}>Bakchod AI</Text>
+        <Text style={styles.headerTitle}>Whatsapp Lite</Text>
         <View style={styles.headerIcons}>
           <TouchableOpacity style={styles.iconButton}>
             <MaterialIcons name="search" size={24} color="#FFFFFF" />

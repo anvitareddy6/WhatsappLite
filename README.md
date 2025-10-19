@@ -2,6 +2,11 @@
 
 A React Native chat application where you can have conversations with AI characters powered by Google Gemini. Create 1-on-1 chats or group conversations with multiple AI personalities that chat amongst themselves and respond to you naturally.
 
+## 📱 Download APK
+
+You can download the latest Android APK from Google Drive:
+[Download Whatsapp Lite APK](https://drive.google.com/file/d/1fE-nkxSAOylMHTiKMQC9-fPmkOQfvSgT/view?usp=sharing)
+
 ## 🚀 Quick Start
 
 ```bash
@@ -13,76 +18,85 @@ npx expo start -c
 ```
 
 Then press:
-- `i` for iOS simulator
-- `a` for Android emulator  
-- `w` for web browser
+
+* `i` for iOS simulator
+* `a` for Android emulator
+* `w` for web browser
 
 ## ✨ Features
 
 ### Core Features
-- **1-on-1 AI Chats** - Have personal conversations with individual AI characters
-- **AI Group Chats** - Create groups where AI characters chat with each other and respond to you
-- **Auto-Start Conversations** - AI characters automatically start chatting (no need to message first)
-- **Smart Context Awareness** - AI responds to the latest 2 messages for relevant conversations
-- **Message Reactions** - Long-press messages to add emoji reactions (persisted across sessions)
-- **Chat Persistence** - All messages and reactions saved locally using AsyncStorage
-- **Duplicate Prevention** - Automatically redirects to existing chats instead of creating duplicates
+
+* **1-on-1 AI Chats** - Have personal conversations with individual AI characters
+* **AI Group Chats** - Create groups where AI characters chat with each other and respond to you
+* **Auto-Start Conversations** - AI characters automatically start chatting (no need to message first)
+* **Smart Context Awareness** - AI responds to the latest 2 messages for relevant conversations
+* **Message Reactions** - Long-press messages to add emoji reactions (persisted across sessions)
+* **Chat Persistence** - All messages and reactions saved locally using AsyncStorage
+* **Duplicate Prevention** - Automatically redirects to existing chats instead of creating duplicates
 
 ### AI Characters (8 Personalities)
-- **Rohan** - The funny guy, cricket & Bollywood fan
-- **Priya** - The organized planner, foodie
-- **Arjun** - Fitness enthusiast, adventure lover
-- **Sneha** - Gossip queen, drama expert
-- **Vikram** - The overthinker, philosopher
-- **Anjali** - Confident fashionista
-- **Karan** - The broke but resourceful friend
-- **Ishita** - Pop culture nerd, binge-watcher
+
+* **Rohan** - The funny guy, cricket & Bollywood fan
+* **Priya** - The organized planner, foodie
+* **Arjun** - Fitness enthusiast, adventure lover
+* **Sneha** - Gossip queen, drama expert
+* **Vikram** - The overthinker, philosopher
+* **Anjali** - Confident fashionista
+* **Karan** - The broke but resourceful friend
+* **Ishita** - Pop culture nerd, binge-watcher
 
 ### UI/UX Features
-- WhatsApp-inspired design with green theme
-- Typing indicators with animated dots
-- Double-checkmark read receipts
-- Avatar grouping for consecutive messages
-- Smooth keyboard handling (iOS/Android/Web)
-- Chat deletion with confirmation
-- Real-time message timestamps
+
+* WhatsApp-inspired design with green theme
+* Typing indicators with animated dots
+* Double-checkmark read receipts
+* Avatar grouping for consecutive messages
+* Smooth keyboard handling (iOS/Android/Web)
+* Chat deletion with confirmation
+* Real-time message timestamps
 
 ## 🤖 AI Model
 
 **Google Gemini 2.5 Flash** via `@google/generative-ai`
 
 ### Why Gemini 2.5 Flash?
-- ⚡ Ultra-fast response times (1-3 seconds)
-- 💰 Cost-effective for high-volume conversations
-- 🎯 Excellent at maintaining character personalities
-- 📝 Great at short, conversational responses
+
+* ⚡ Ultra-fast response times (1-3 seconds)
+* 💰 Cost-effective for high-volume conversations
+* 🎯 Excellent at maintaining character personalities
+* 📝 Great at short, conversational responses
 
 ### Prompt Engineering
-- **Group Chats**: Focuses on last 2-3 messages with visual markers (`>>>` `<<<`)
-- **Context Window**: Last 5-8 messages for relevance
-- **Character Consistency**: Personality traits embedded in every prompt
-- **Response Length**: Optimized for 1-2 sentence replies in groups
+
+* **Group Chats**: Focuses on last 2-3 messages with visual markers (`>>>` `<<<`)
+* **Context Window**: Last 5-8 messages for relevance
+* **Character Consistency**: Personality traits embedded in every prompt
+* **Response Length**: Optimized for 1-2 sentence replies in groups
 
 ## 📱 Platform Optimizations
 
 ### iOS
-- `padding` behavior for KeyboardAvoidingView
-- Native blur and shadow effects
-- Smooth scroll animations
-- Haptic feedback support ready
 
-### Android  
-- `height` behavior for KeyboardAvoidingView
-- Platform-specific text padding for input alignment
-- Optimized elevation for shadows
-- Back button handling
+* `padding` behavior for KeyboardAvoidingView
+* Native blur and shadow effects
+* Smooth scroll animations
+* Haptic feedback support ready
+
+### Android
+
+* `height` behavior for KeyboardAvoidingView
+* Platform-specific text padding for input alignment
+* Optimized elevation for shadows
+* Back button handling
 
 ### Web
-- Custom outline removal for inputs
-- Enter key to send (Shift+Enter for new line)
-- Mouse hover states for buttons
-- Responsive keyboard dismiss
-- Browser-based AsyncStorage
+
+* Custom outline removal for inputs
+* Enter key to send (Shift+Enter for new line)
+* Mouse hover states for buttons
+* Responsive keyboard dismiss
+* Browser-based AsyncStorage
 
 ## 🏗️ Architecture
 
@@ -122,11 +136,11 @@ const API_KEY = 'YOUR_API_KEY_HERE'; // Get from https://aistudio.google.com
 
 ## 🎨 Design Features
 
-- **WhatsApp Theme**: Green header (#075E54), light green bubbles (#DCF8C6)
-- **Typography**: System fonts, 15-16px for readability
-- **Shadows**: Subtle elevation for depth (Android) and shadows (iOS)
-- **Animations**: Typing dots, smooth scrolling, keyboard transitions
-- **Accessibility**: Proper contrast ratios, readable fonts
+* **WhatsApp Theme**: Green header (#075E54), light green bubbles (#DCF8C6)
+* **Typography**: System fonts, 15-16px for readability
+* **Shadows**: Subtle elevation for depth (Android) and shadows (iOS)
+* **Animations**: Typing dots, smooth scrolling, keyboard transitions
+* **Accessibility**: Proper contrast ratios, readable fonts
 
 ## 🔧 Performance Optimizations
 

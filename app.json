@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Bakchod AI",
+    "name": "Whatsapp Lite",
     "slug": "bakchod-ai",
     "version": "1.0.0",
     "owner": "anvitareddy",
@@ -11,10 +11,10 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.bakchodai.app"
+      "bundleIdentifier": "com.whatsapplite.app"
     },
     "android": {
-      "package": "com.bakchodai.app",
+      "package": "com.whatsapplite.app",
       "permissions": [
         "android.permission.INTERNET"
       ]
